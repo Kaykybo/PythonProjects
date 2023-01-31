@@ -1,6 +1,6 @@
-Nome=Kayky
-peso=55
-altura=1.70
-imc= 55 / (altura **2)
+nome=input('Qual é o seu nome? ')
+peso=int(input('Qual o seu peso? '))
+altura=float(input('Sua altura? '))
+imc=peso/(altura**2)
 
-print(Nome' tem', altura, 'de altura,', 'pesa', peso, 'quilos e seu IMC é', imc)
+print(nome,'tem', altura, 'de altura,', 'pesa', peso, 'quilos e seu IMC é', imc)
